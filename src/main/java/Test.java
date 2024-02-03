@@ -23,7 +23,7 @@ public class Test {
             PackageFilter filter = PackageFilter.all();
             //filter.including("edu.iuh");
             filter.accept("edu.iuh");
-            filter.excluding("com", "org", "java", "javax");
+            filter.excluding("com", "org", "java", "javax", "swing");
 
             xml.setFilter(filter);
             xml.analyze();
