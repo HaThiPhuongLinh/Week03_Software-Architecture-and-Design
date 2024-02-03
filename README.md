@@ -5,7 +5,8 @@ This project utilizes JDepend and JDOM to analyze and generate reports on the pr
 ## Dependencies
 
 - [JDepend](#): A tool for measuring and analyzing the package dependencies in Java projects.
-  - ```js
+  
+   ```js
      implementation ("guru.nidi:jdepend:2.9.5")
      ```
 - [DOM](#): XML parsing library.
@@ -172,7 +173,7 @@ Uses CKJM to analyze the metrics of a specific Java class file (MetricsFilterTes
   // LCOM4 of class ReportGenerator.class is 1
   ```
 
-# Tools
+# Tool
 ## MetricTree
 ![image](https://github.com/HaThiPhuongLinh/Week03_Software-Architecture-and-Design/assets/109422010/7ab1c58d-2620-4ce3-b3e3-eb92fd5b7bc9)
 ![image](https://github.com/HaThiPhuongLinh/Week03_Software-Architecture-and-Design/assets/109422010/0a08a651-18e0-45d3-ad09-b99fd9ff5109)
