@@ -5,14 +5,19 @@ This project utilizes JDepend and JDOM to analyze and generate reports on the pr
 ## Dependencies
 
 - [JDepend](#): A tool for measuring and analyzing the package dependencies in Java projects.
+  - ```js
+     implementation ("guru.nidi:jdepend:2.9.5")
+     ```
 - [DOM](#): XML parsing library.
 
 
 1. **JDepend:**
-   - Gradle:
+   - Using:
 
      ```js
-     implementation ("guru.nidi:jdepend:2.9.5")
+     JDepend jDepend = new JDepend();
+     jDepend.addDirectory(fileName);
+     jDepend.analyze();
      ```
 
 2. **Parse XML Documents:**
