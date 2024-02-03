@@ -128,16 +128,20 @@ public class ReportGenerator extends JFrame {
                     }
 
                     String status;
+                    String action;
                     if (iValue >= 0 && iValue < 0.4) {
                         status = "Stable";
+                        action = "";
                     } else if (iValue > 0.6 && iValue <= 1) {
                         status = "Bad";
+                        action = "Reduce Ce or increase Ca (or both)";
                     } else {
                         status = "Simple";
+                        action = "Reduce Ce or increase Ca (or both)";
                     }
 
 
-                    Object[] rowData = {packageName, caValue, ceValue, iValue, aValue, status};
+                    Object[] rowData = {packageName, caValue, ceValue, iValue, aValue, status, action};
                     modelTblReport.addRow(rowData);
                 }
             }
