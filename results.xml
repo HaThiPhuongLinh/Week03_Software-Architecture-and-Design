@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="Default">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="edu.iuh.ConnectDB">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>4</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ConnectDB.java">
+                    edu.iuh.ConnectDB.ConnectDB
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.DAO</Package>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.component</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.DAO">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>11</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>4</Ca>
+                <Ce>2</Ce>
+                <A>0</A>
+                <I>0.33</I>
+                <D>0.67</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AccountDAO.java">
+                    edu.iuh.DAO.AccountDAO
+                </Class>
+                <Class sourceFile="BillDAO.java">
+                    edu.iuh.DAO.BillDAO
+                </Class>
+                <Class sourceFile="CustomerDAO.java">
+                    edu.iuh.DAO.CustomerDAO
+                </Class>
+                <Class sourceFile="DetailOfBillDAO.java">
+                    edu.iuh.DAO.DetailOfBillDAO
+                </Class>
+                <Class sourceFile="DetailOfServiceDAO.java">
+                    edu.iuh.DAO.DetailOfServiceDAO
+                </Class>
+                <Class sourceFile="ReservationFormDAO.java">
+                    edu.iuh.DAO.ReservationFormDAO
+                </Class>
+                <Class sourceFile="RoomDAO.java">
+                    edu.iuh.DAO.RoomDAO
+                </Class>
+                <Class sourceFile="ServiceDAO.java">
+                    edu.iuh.DAO.ServiceDAO
+                </Class>
+                <Class sourceFile="StaffDAO.java">
+                    edu.iuh.DAO.StaffDAO
+                </Class>
+                <Class sourceFile="TypeOfRoomDAO.java">
+                    edu.iuh.DAO.TypeOfRoomDAO
+                </Class>
+                <Class sourceFile="TypeOfServiceDAO.java">
+                    edu.iuh.DAO.TypeOfServiceDAO
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>edu.iuh.ConnectDB</Package>
+                <Package>edu.iuh.Entity</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.Entity</Package>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.component</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.Entity">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>11</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>5</Ca>
+                <Ce>1</Ce>
+                <A>0</A>
+                <I>0.17</I>
+                <D>0.83</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Account.java">
+                    edu.iuh.Entity.Account
+                </Class>
+                <Class sourceFile="Bill.java">
+                    edu.iuh.Entity.Bill
+                </Class>
+                <Class sourceFile="Customer.java">
+                    edu.iuh.Entity.Customer
+                </Class>
+                <Class sourceFile="DetailsOfBill.java">
+                    edu.iuh.Entity.DetailsOfBill
+                </Class>
+                <Class sourceFile="DetailsOfService.java">
+                    edu.iuh.Entity.DetailsOfService
+                </Class>
+                <Class sourceFile="ReservationForm.java">
+                    edu.iuh.Entity.ReservationForm
+                </Class>
+                <Class sourceFile="Room.java">
+                    edu.iuh.Entity.Room
+                </Class>
+                <Class sourceFile="Service.java">
+                    edu.iuh.Entity.Service
+                </Class>
+                <Class sourceFile="Staff.java">
+                    edu.iuh.Entity.Staff
+                </Class>
+                <Class sourceFile="TypeOfRoom.java">
+                    edu.iuh.Entity.TypeOfRoom
+                </Class>
+                <Class sourceFile="TypeOfService.java">
+                    edu.iuh.Entity.TypeOfService
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>edu.iuh.DAO</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.DAO</Package>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.component</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+                <Package>menu</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.UI">
+            <Stats>
+                <TotalClasses>8</TotalClasses>
+                <ConcreteClasses>8</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>5</Ce>
+                <A>0</A>
+                <I>0.83</I>
+                <D>0.17</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$1
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$2
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$3
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$4
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$5
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$6
+                </Class>
+                <Class sourceFile="Login_UI.java">
+                    edu.iuh.UI.Login_UI$7
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>edu.iuh.ConnectDB</Package>
+                <Package>edu.iuh.DAO</Package>
+                <Package>edu.iuh.Entity</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+                <Package>menu</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.UI.CustomUI">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Custom.java">
+                    edu.iuh.UI.CustomUI.Custom
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI.component</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.UI.component">
+            <Stats>
+                <TotalClasses>49</TotalClasses>
+                <ConcreteClasses>49</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>0.86</I>
+                <D>0.14</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Bill_UI.java">
+                    edu.iuh.UI.component.Bill_UI
+                </Class>
+                <Class sourceFile="Customer_UI.java">
+                    edu.iuh.UI.component.Customer_UI
+                </Class>
+                <Class sourceFile="Customer_UI.java">
+                    edu.iuh.UI.component.Customer_UI$1
+                </Class>
+                <Class sourceFile="Home_UI.java">
+                    edu.iuh.UI.component.Home_UI
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI$1
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI$2
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI$3
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI$4
+                </Class>
+                <Class sourceFile="KaraokeBooking_UI.java">
+                    edu.iuh.UI.component.KaraokeBooking_UI$5
+                </Class>
+                <Class sourceFile="ListBill_UI.java">
+                    edu.iuh.UI.component.ListBill_UI
+                </Class>
+                <Class sourceFile="ListBill_UI.java">
+                    edu.iuh.UI.component.ListBill_UI$1
+                </Class>
+                <Class sourceFile="Room_UI.java">
+                    edu.iuh.UI.component.Room_UI
+                </Class>
+                <Class sourceFile="Room_UI.java">
+                    edu.iuh.UI.component.Room_UI$1
+                </Class>
+                <Class sourceFile="SearchingCustomer_UI.java">
+                    edu.iuh.UI.component.SearchingCustomer_UI
+                </Class>
+                <Class sourceFile="SearchingCustomer_UI.java">
+                    edu.iuh.UI.component.SearchingCustomer_UI$1
+                </Class>
+                <Class sourceFile="SearchingRoom_UI.java">
+                    edu.iuh.UI.component.SearchingRoom_UI
+                </Class>
+                <Class sourceFile="SearchingRoom_UI.java">
+                    edu.iuh.UI.component.SearchingRoom_UI$1
+                </Class>
+                <Class sourceFile="SearchingRoom_UI.java">
+                    edu.iuh.UI.component.SearchingRoom_UI$2
+                </Class>
+                <Class sourceFile="SearchingRoom_UI.java">
+                    edu.iuh.UI.component.SearchingRoom_UI$3
+                </Class>
+                <Class sourceFile="SearchingService_UI.java">
+                    edu.iuh.UI.component.SearchingService_UI
+                </Class>
+                <Class sourceFile="SearchingService_UI.java">
+                    edu.iuh.UI.component.SearchingService_UI$1
+                </Class>
+                <Class sourceFile="SearchingService_UI.java">
+                    edu.iuh.UI.component.SearchingService_UI$2
+                </Class>
+                <Class sourceFile="SearchingService_UI.java">
+                    edu.iuh.UI.component.SearchingService_UI$3
+                </Class>
+                <Class sourceFile="SearchingStaff_UI.java">
+                    edu.iuh.UI.component.SearchingStaff_UI
+                </Class>
+                <Class sourceFile="SearchingStaff_UI.java">
+                    edu.iuh.UI.component.SearchingStaff_UI$1
+                </Class>
+                <Class sourceFile="SearchingStaff_UI.java">
+                    edu.iuh.UI.component.SearchingStaff_UI$2
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$1
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$2
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$3
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$4
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$5
+                </Class>
+                <Class sourceFile="ServiceForm_UI.java">
+                    edu.iuh.UI.component.ServiceForm_UI$6
+                </Class>
+                <Class sourceFile="Service_UI.java">
+                    edu.iuh.UI.component.Service_UI
+                </Class>
+                <Class sourceFile="Service_UI.java">
+                    edu.iuh.UI.component.Service_UI$1
+                </Class>
+                <Class sourceFile="Staff_UI.java">
+                    edu.iuh.UI.component.Staff_UI
+                </Class>
+                <Class sourceFile="Staff_UI.java">
+                    edu.iuh.UI.component.Staff_UI$1
+                </Class>
+                <Class sourceFile="StatisticCustomer_UI.java">
+                    edu.iuh.UI.component.StatisticCustomer_UI
+                </Class>
+                <Class sourceFile="StatisticCustomer_UI.java">
+                    edu.iuh.UI.component.StatisticCustomer_UI$1
+                </Class>
+                <Class sourceFile="StatisticCustomer_UI.java">
+                    edu.iuh.UI.component.StatisticCustomer_UI$2
+                </Class>
+                <Class sourceFile="StatisticService_UI.java">
+                    edu.iuh.UI.component.StatisticService_UI
+                </Class>
+                <Class sourceFile="StatisticService_UI.java">
+                    edu.iuh.UI.component.StatisticService_UI$1
+                </Class>
+                <Class sourceFile="StatisticService_UI.java">
+                    edu.iuh.UI.component.StatisticService_UI$2
+                </Class>
+                <Class sourceFile="Statistic_UI.java">
+                    edu.iuh.UI.component.Statistic_UI
+                </Class>
+                <Class sourceFile="TypeOfRoom_UI.java">
+                    edu.iuh.UI.component.TypeOfRoom_UI
+                </Class>
+                <Class sourceFile="TypeOfRoom_UI.java">
+                    edu.iuh.UI.component.TypeOfRoom_UI$1
+                </Class>
+                <Class sourceFile="TypeOfService_UI.java">
+                    edu.iuh.UI.component.TypeOfService_UI
+                </Class>
+                <Class sourceFile="TypeOfService_UI.java">
+                    edu.iuh.UI.component.TypeOfService_UI$1
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>Default</Package>
+                <Package>edu.iuh.ConnectDB</Package>
+                <Package>edu.iuh.DAO</Package>
+                <Package>edu.iuh.Entity</Package>
+                <Package>edu.iuh.UI.CustomUI</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="edu.iuh.UI.component.Dialog">
+            <Stats>
+                <TotalClasses>31</TotalClasses>
+                <ConcreteClasses>31</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>9</Ce>
+                <A>0</A>
+                <I>0.82</I>
+                <D>0.18</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ChooseCustomer.java">
+                    edu.iuh.UI.component.Dialog.ChooseCustomer
+                </Class>
+                <Class sourceFile="ConvertTime.java">
+                    edu.iuh.UI.component.Dialog.ConvertTime
+                </Class>
+                <Class sourceFile="DatePicker.java">
+                    edu.iuh.UI.component.Dialog.DatePicker
+                </Class>
+                <Class sourceFile="DetailsOfStaff.java">
+                    edu.iuh.UI.component.Dialog.DetailsOfStaff
+                </Class>
+                <Class sourceFile="DiaLogDatePicker.java">
+                    edu.iuh.UI.component.Dialog.DiaLogDatePicker
+                </Class>
+                <Class sourceFile="DiaLogDatePicker.java">
+                    edu.iuh.UI.component.Dialog.DiaLogDatePicker$1
+                </Class>
+                <Class sourceFile="DialogBill.java">
+                    edu.iuh.UI.component.Dialog.DialogBill
+                </Class>
+                <Class sourceFile="DialogBill.java">
+                    edu.iuh.UI.component.Dialog.DialogBill$1
+                </Class>
+                <Class sourceFile="DialogBill.java">
+                    edu.iuh.UI.component.Dialog.DialogBill$2
+                </Class>
+                <Class sourceFile="ExportBill.java">
+                    edu.iuh.UI.component.Dialog.ExportBill
+                </Class>
+                <Class sourceFile="InfoBill.java">
+                    edu.iuh.UI.component.Dialog.InfoBill
+                </Class>
+                <Class sourceFile="InfoBill.java">
+                    edu.iuh.UI.component.Dialog.InfoBill$1
+                </Class>
+                <Class sourceFile="InfoBill.java">
+                    edu.iuh.UI.component.Dialog.InfoBill$2
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$1
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$2
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$3
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$4
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$5
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$6
+                </Class>
+                <Class sourceFile="Main.java">
+                    edu.iuh.UI.component.Dialog.Main$7
+                </Class>
+                <Class sourceFile="PresetRoom.java">
+                    edu.iuh.UI.component.Dialog.PresetRoom
+                </Class>
+                <Class sourceFile="PresetRoom.java">
+                    edu.iuh.UI.component.Dialog.PresetRoom$1
+                </Class>
+                <Class sourceFile="ReservationFormList.java">
+                    edu.iuh.UI.component.Dialog.ReservationFormList
+                </Class>
+                <Class sourceFile="ReservationFormList.java">
+                    edu.iuh.UI.component.Dialog.ReservationFormList$1
+                </Class>
+                <Class sourceFile="ReservationFormList.java">
+                    edu.iuh.UI.component.Dialog.ReservationFormList$2
+                </Class>
+                <Class sourceFile="SendSMS.java">
+                    edu.iuh.UI.component.Dialog.SendSMS
+                </Class>
+                <Class sourceFile="Support.java">
+                    edu.iuh.UI.component.Dialog.Support
+                </Class>
+                <Class sourceFile="Support.java">
+                    edu.iuh.UI.component.Dialog.Support$1
+                </Class>
+                <Class sourceFile="SwitchRoom.java">
+                    edu.iuh.UI.component.Dialog.SwitchRoom
+                </Class>
+                <Class sourceFile="SwitchRoom.java">
+                    edu.iuh.UI.component.Dialog.SwitchRoom$1
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>Default</Package>
+                <Package>edu.iuh.ConnectDB</Package>
+                <Package>edu.iuh.DAO</Package>
+                <Package>edu.iuh.Entity</Package>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.CustomUI</Package>
+                <Package>edu.iuh.UI.component</Package>
+                <Package>menu</Package>
+                <Package>menu.swing</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.component</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="menu">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>10</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>4</Ce>
+                <A>0.09</A>
+                <I>0.67</I>
+                <D>0.24</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="MenuEvent.java">
+                    menu.MenuEvent
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Header.java">
+                    menu.Header
+                </Class>
+                <Class sourceFile="Menu.java">
+                    menu.Menu
+                </Class>
+                <Class sourceFile="Menu.java">
+                    menu.Menu$MenuLayout
+                </Class>
+                <Class sourceFile="MenuAction.java">
+                    menu.MenuAction
+                </Class>
+                <Class sourceFile="MenuAnimation.java">
+                    menu.MenuAnimation
+                </Class>
+                <Class sourceFile="MenuItem.java">
+                    menu.MenuItem
+                </Class>
+                <Class sourceFile="MenuItem.java">
+                    menu.MenuItem$MenuLayout
+                </Class>
+                <Class sourceFile="MenuItemLayout.java">
+                    menu.MenuItemLayout
+                </Class>
+                <Class sourceFile="PopupSubmenu.java">
+                    menu.PopupSubmenu
+                </Class>
+                <Class sourceFile="PopupSubmenu.java">
+                    menu.PopupSubmenu$MenuLayout
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>Default</Package>
+                <Package>edu.iuh.Entity</Package>
+                <Package>menu.mode</Package>
+                <Package>menu.swing</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI</Package>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="menu.mode">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="LightDarkMode.java">
+                    menu.mode.LightDarkMode
+                </Class>
+                <Class sourceFile="LightDarkMode.java">
+                    menu.mode.LightDarkMode$LightDarkModeLayout
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>menu</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="menu.swing">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>1</Ce>
+                <A>0</A>
+                <I>0.33</I>
+                <D>0.67</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ButtonBadges.java">
+                    menu.swing.ButtonBadges
+                </Class>
+                <Class sourceFile="ButtonMenu.java">
+                    menu.swing.ButtonMenu
+                </Class>
+                <Class sourceFile="ImageAvatar.java">
+                    menu.swing.ImageAvatar
+                </Class>
+                <Class sourceFile="RoundPanel.java">
+                    menu.swing.RoundPanel
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>Default</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>edu.iuh.UI.component.Dialog</Package>
+                <Package>menu</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="menu.swing.progress">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Progress.java">
+                    menu.swing.progress.Progress
+                </Class>
+                <Class sourceFile="ProgressCircleUI.java">
+                    menu.swing.progress.ProgressCircleUI
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="menu.swing.scrollbar">
+            <Stats>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ModernScrollBarUI.java">
+                    menu.swing.scrollbar.ModernScrollBarUI
+                </Class>
+                <Class sourceFile="ModernScrollBarUI.java">
+                    menu.swing.scrollbar.ModernScrollBarUI$ScrollBarButton
+                </Class>
+                <Class sourceFile="ScrollBarCustom.java">
+                    menu.swing.scrollbar.ScrollBarCustom
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+    </Packages>
+
+    <Cycles>
+        <Package Name="edu.iuh.DAO">
+            <Package>edu.iuh.Entity</Package>
+            <Package>edu.iuh.DAO</Package>
+        </Package>
+
+        <Package Name="edu.iuh.Entity">
+            <Package>edu.iuh.DAO</Package>
+            <Package>edu.iuh.Entity</Package>
+        </Package>
+
+        <Package Name="edu.iuh.UI">
+            <Package>edu.iuh.UI.component.Dialog</Package>
+            <Package>edu.iuh.UI.component</Package>
+            <Package>edu.iuh.UI.component.Dialog</Package>
+        </Package>
+
+        <Package Name="edu.iuh.UI.component">
+            <Package>edu.iuh.UI.component.Dialog</Package>
+            <Package>edu.iuh.UI.component</Package>
+        </Package>
+
+        <Package Name="edu.iuh.UI.component.Dialog">
+            <Package>edu.iuh.UI.component</Package>
+            <Package>edu.iuh.UI.component.Dialog</Package>
+        </Package>
+
+        <Package Name="menu">
+            <Package>edu.iuh.Entity</Package>
+            <Package>edu.iuh.DAO</Package>
+            <Package>edu.iuh.Entity</Package>
+        </Package>
+
+    </Cycles>
+</JDepend>
