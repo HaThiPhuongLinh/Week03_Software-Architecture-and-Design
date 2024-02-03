@@ -13,7 +13,9 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
-    implementation ("org.jdom:jdom2:2.0.6.1")
+    implementation ("gr.spinellis.ckjm:ckjm_ext:2.5")
+    implementation ("au.com.dius:pact-jvm-consumer-junit:4.0.10")
+    implementation ("org.apache.bcel:bcel:6.8.1")
     implementation ("guru.nidi:jdepend:2.9.5")
 }
 
