@@ -17,6 +17,7 @@ This project utilizes JDepend and JDOM to analyze and generate reports on the pr
 
 2. **Parse XML Documents:**
    - Use DOM to parse the generated XML files.
+
    ```js
    DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
    DocumentBuilder builder = builderFactory.newDocumentBuilder();
